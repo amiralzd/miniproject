@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* .img1 ::after{
+background-image: url("../img/hassanzad.png");
+} */
