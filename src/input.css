@@ -7,3 +7,16 @@
 /* .img1 ::after{
 background-image: url("../img/hassanzad.png");
 } */
+
+.shadow-custom{
+    box-shadow: 0px 9.129251480102539px 54.7755126953125px 0px rgba(38, 45, 118, 0.08);
+
+}
+
+.images{
+    background-image: url(../img/img.png);
+}
+
+.bc{
+    border: 1px solid var(--blue-button, #4FB5FF);
+}
