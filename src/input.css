@@ -34,3 +34,103 @@ background-image: url("../img/hassanzad.png");
 .shc6{
     box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
 }
+
+.brc7{
+    border: 2px solid var(--blue-button, #4FB5FF);
+}
+
+.brctn7{
+    border-bottom: 2px solid #D4D4D4;
+}
+
+.bxshctn7{
+    box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+}
+
+
+.bgctn7{
+    background: rgba(116, 83, 247, 0.30);
+}
+
+.bgctn77{
+    background: var(--purpple, #7453F7);
+}
+
+.brdctn9{
+    border: 1px solid var(--blue-button, #4FB5FF);
+}
+
+.textstyle{
+    color: var(--blue-button, #4FB5FF);
+    text-align: right;
+    font-family: Yekan Bakh FaNum;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69.725px;
+    letter-spacing: -0.31px;
+}
+
+.bxshctn9{
+    box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+}
+
+.textstylectn9{
+    color: #FFF;
+    text-align: center;
+    font-family: Yekan Bakh FaNum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.styletextctn9{
+    color: #31003D;
+    text-align: right;
+    font-family: Yekan Bakh FaNum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    text-align: center;
+}
+
+.textstylelogo{
+    color: var(--neutral-800, #170F49);
+    font-family: DM Sans;
+    font-size: 32.209px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.998px;
+}
+
+.textstyletitr{
+    color: var(--neutral-800, #170F49);
+    /* Text Single/300/Bold */
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+}
+.styletext{
+    color: var(--neutral-600, #6F6C90);
+    text-align: center;
+
+    /* Text Single/200/Regular */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.stylebox{
+    border-radius: 108px;
+    border: 1px solid var(--neutral-400, #D9DBE9);
+    background: var(--neutral-100, #FFF);
+    /* General/Shadow 02 */
+    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+
+}
