@@ -134,3 +134,53 @@ background-image: url("../img/hassanzad.png");
     box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
 
 }
+
+#email{
+    width: 359px;
+    height: 68px;
+    border-radius: 108px;
+    border: 1px solid var(--neutral-400, #D9DBE9);
+    background: var(--neutral-100, #FFF);
+    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+    padding-top: 25px;
+    padding-left: 23px;
+    padding-bottom: 25px;
+    padding-right: 216px;
+}
+
+#submit{
+    width: 125px;
+    height: 54px;
+    border-radius: 76px;
+    background: var(--purpple, #7453F7);
+    padding-top: 15px;
+    padding-left: 24px;
+    padding-bottom: 18px;
+    padding-right: 24px;
+    cursor: pointer;
+}
+
+.styletextftr{
+    color: var(--neutral-600, #6F6C90);
+    /* Text Single/200/Regular */
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.customsh{
+    box-shadow: 0px 2px 12px 0px rgba(40, 2, 102, 0.31);
+}
+
+.bgctn1{
+    background: rgba(79, 181, 255, 1)
+}
+
+.bgcustom{
+    background: rgba(238, 244, 254, 1)
+}
+
+.bgss{
+    background: url(../img/Group\ 93.png);
+}
