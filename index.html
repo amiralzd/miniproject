@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="src/input.css">
     <title>Document</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -19,12 +20,14 @@
         }
     </script>
 
-    
+    <script src="https://kit.fontawesome.com/cb5095bf42.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </head>
 <body>
 
   <!--start nav-->
-  <div class="w-full h-[92px] flex items-center justify-center max-sm:w-full max-sm:h-[63.49px]">
+  <div class="w-full h-[92px] flex items-center justify-center max-sm:hidden">
     <div class="w-[1423px] h-[41px] justify-between flex">
 
       <div class="w-[138px] h-[41px] gap-[11px] flex  max-sm:hidden">
@@ -56,16 +59,34 @@
 
   <!--End nav-->
 
+  <!--start nav responsive-->
+  <div class="max-sm:w-full max-sm:h-auto max-sm:flex sm:hidden max-sm:relative">
+    <div class="w-1/4 h-[63.49px] flex">
+      <div class="w-[44px] h-[25px] font-bold mt-auto mb-auto ml-[20px]">LOGO</div>
+    </div>
+    <div onclick="navbar()" class="nav" id="mynav">
+      <a href="">صفحه اصلی</a>
+      <a href="">فروشگاه</a>
+      <a href="">آزمون ها</a>
+      <a href="">نمونه سوالات</a>
+      <a href="">درباره من</a>
+      <a href="">بلاگ</a>
+      <a href="">ورود</a>
+      <a href="javascript:void(0)" class="icon"><i class="fa-solid fa-bars"></i></a>
+    </div>
+  </div>
+  <!--End nav responsive-->
+
   <!--start main-->
 
   <!--start container 1-->
-  <div class="w-full h-[845px] top-[5px] bg-sky-400 flex relative max-sm:w-full max-sm:h-[648px]">
-    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[324px]">
-      <div class="w-[684.28px] h-[326px] mt-[200px] ml-[37px] p-[10px] flex justify-center items-center gap-[10px]">
+  <div class="w-full h-[845px] top-[5px] bg-sky-400 flex max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
+    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[350px] max-sm:block bg-orange-600">
+      <div class="w-[684.28px] h-[326px] mt-[200px] ml-[37px] p-[10px] flex justify-center items-center gap-[10px] bg-lime-600 max-sm:w-full max-sm:m-auto">
 
-        <div class="w-[664.28px] h-[306px] gap-[10px]  max-sm:w-full max-sm:h-[324px]">
+        <div class="w-[664.28px] h-[306px] gap-[10px]  max-sm:w-full max-sm:h-[324px] max-sm:gap-0">
           
-          <div class="w-[664.28] h-[218px] gap-[25px]"><h1 class="text-[45px] text-[#fff] text-right">مهارت های خود را با دوره های انلاین رشد دهید</h1></div>
+          <div class="w-[664.28] h-[px] gap-[25px] max-sm:gap-0"><h1 class="max-sm:text-[20px] text-[45px] text-[#fff] text-right">مهارت های خود را با دوره های انلاین رشد دهید</h1></div>
   
           <div class="w-[586.93px] h-[88px] text-[#fff] ml-auto">eduvi is global training provider based across the uk that specialises in accredited and bespoke training courses. we crush the barriers togetting a degree.</div>
         </div>
@@ -155,7 +176,7 @@
 
 <!--start container 3-->
 
-  <div class="w-full h-[628px] images mb-[50px] max-sm:bg-none max-sm:full max-sm:h[700px] max-sm:mb-[150px]">
+  <div class="w-full h-[628px] images mb-[50px] max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
     <div class="w-2/4 h-[628px] flex justify-end items-center max-sm:w-full max-sm:h-[350px] max-sm:block">
       <div class="w-[595px] h-[350px] p-[25px] max-sm:w-full max-sm:h-[350px]">
         <div class="w-[247px] h-[54px] ml-auto text-right mr-[20px] max-sm:m-auto"><h1 class="text-[33px] text-[#2F327D] max-sm:text-center">ریاضیات حسن زاد</h1></div>
@@ -613,13 +634,13 @@
   <!--End container 9-->
 
   <!--start footer-->
-  <div class="w-full h-[760px] mt-[138px] max-sm:w-full max-sm:h-[870px] bg-lime-600">
-    <div class="w-full h-[192.24px] pb-[44.24px] pr-[1339px] pt-[114px] pl-[100px]">
-      <div class="w-[73px] h-[34px] textstylelogo">LOGO</div>
+  <div class="w-full h-[760px] mt-[138px] max-sm:w-full max-sm:h-[870px] max-sm:mt-[50px]">
+    <div class="w-full h-[192.24px] pb-[44.24px] pr-[1339px] pt-[114px] pl-[100px] max-sm:w-full max-sm:h-[100px] max-sm:p-0 max-sm:flex">
+      <div class="w-[73px] h-[34px] textstylelogo max-sm:m-auto">LOGO</div>
     </div>
-    <div class="w-[1440px] h-[2px] bg-[#D9DBE9]"></div>
-    <div class="w-[1239px] h-[284px] mr-auto ml-auto mt-[114.78px] gap-[111px] flex">
-      <div class="w-[108px] h-[234px] grid gap-[40px]">
+    <div class="w-[1440px] h-[2px] bg-[#D9DBE9] max-sm:mt-[-130px] max-sm:w-full max-sm:h-[2px]"></div>
+    <div class="w-[1239px] h-[284px] mr-auto ml-auto mt-[114.78px] gap-[111px] flex max-sm:w-full">
+      <div class="w-[108px] h-[234px] grid gap-[40px] max-sm:hidden">
         <div class="w-[78px] h-[22px] textstyletitr">Product</div>
         <div class="w-full h-[172px] grid gap-18px">
           <a href="" class="w-[72px] h-[20px] styletext text-left">Features</a>
@@ -629,7 +650,7 @@
           <a href="" class="w-[70px] h-[20px] styletext text-left">Updates</a>
         </div>
       </div>
-      <div class="w-[94px] h-[234px] grid gap-[40px]">
+      <div class="w-[94px] h-[234px] grid gap-[40px] max-sm:hidden">
         <div class="w-[78px] h-[22px] textstyletitr">Company</div>
         <div class="w-full h-[172px] grid gap-18px">
           <a href="" class="w-[72px] h-[20px] styletext text-left">About</a>
@@ -639,7 +660,7 @@
           <a href="" class="w-[70px] h-[20px] styletext text-left">Blog</a>
         </div>
       </div>
-      <div class="w-[127px] h-[234px] grid gap-[40px]">
+      <div class="w-[127px] h-[234px] grid gap-[40px] max-sm:hidden">
         <div class="w-[78px] h-[22px] textstyletitr">Support</div>
         <div class="w-full h-[172px] grid gap-18px">
           <a href="" class="w-full h-[20px] styletext text-left">Getting started</a>
@@ -649,7 +670,7 @@
           <a href="" class="w-full h-[20px] styletext text-left">Chat support</a>
         </div>
       </div>
-      <div class="w-[107px] h-[234px] grid gap-[40px]">
+      <div class="w-[107px] h-[234px] grid gap-[40px] max-sm:hidden">
         <div class="w-[78px] h-[22px] textstyletitr">Downloads</div>
         <div class="w-full h-[172px] grid gap-18px">
           <a href="" class="w-full h-[20px] styletext text-left">iOS</a>
@@ -659,24 +680,77 @@
           <a href="" class="w-full h-[20px] styletext text-left">Chrome</a>
         </div>
       </div>
-      <div class="w-[359px] h-[284px]">
-        <div class="w-[269px] h-[22px] mb-[40px] textstyletitr text">Subscribe to our newsletter</div>
-        <div class="w-[358.36px] h-[60px] mb-[24px] styletext text-left">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</div>
+      <div class="w-[359px] h-[284px] max-sm:m-auto">
+        <div class="w-[269px] h-[22px] mb-[40px] textstyletitr text max-sm:text-center max-sm:w-full">Subscribe to our newsletter</div>
+        <div class="w-[358.36px] h-[60px] mb-[24px] styletext text-left max-sm:w-full max-sm:text-center">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris sed ma</div>
         <div class="w-[359px] h-[138px]">
           <div class="w-[359px] h-[68px] mb-[16px]">
             <form action="">
               <input type="email" name="email" id="email" placeholder="Enter your email">
             </form>
           </div>
-          <div class="w-[125px] h-[54px]">
+          <div class="w-[125px] h-[54px] max-sm:w-full">
             <form action="">
-              <input type="submit" name="submit" id="submit" placeholder="Subscribe">
+              <input class="max-sm:ml-[116.68px]" type="submit" name="submit" id="submit" placeholder="Subscribe">
             </form>
           </div>
         </div>
       </div>
     </div>
-    <div class="w-full h-[70px] mt-[100px] flex">
+
+
+
+    <div class="max-sm:w-[359px] max-sm:m-auto max-sm:grid max-sm:grid-cols-2 gap-[99px] sm:hidden max-sm:pr-[20px] max-sm:pl-[20px] max-sm:mt-[99px]">
+
+      <div class="grid gap-[40px]">
+        <div class="w-[78px] h-[22px] textstyletitr">Product</div>
+          <div class="w-full h-[172px] grid gap-18px">
+            <a href="" class="w-[72px] h-[20px] styletext text-left">Features</a>
+            <a href="" class="w-[57px] h-[20px] styletext text-left">Pricing</a>
+            <a href="" class="w-full h-[20px] styletext text-left">Case studies</a>
+            <a href="" class="w-[67px] h-[20px] styletext text-left">Reviews</a>
+            <a href="" class="w-[70px] h-[20px] styletext text-left">Updates</a>
+          </div>
+      </div>
+
+      <div class="grid gap-[40px]">
+        <div class="w-full h-[22px] textstyletitr">Company</div>
+        <div class="w-full h-[172px] grid gap-18px">
+          <a href="" class="w-[72px] h-[20px] styletext text-left">About</a>
+          <a href="" class="w-[80px] h-[20px] styletext text-left">Contact us</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Careers</a>
+          <a href="" class="w-[67px] h-[20px] styletext text-left">Culture</a>
+          <a href="" class="w-[70px] h-[20px] styletext text-left">Blog</a>
+        </div>
+      </div>
+
+      <div class="grid gap-[40px]">
+        <div class="w-[78px] h-[22px] textstyletitr">Support</div>
+        <div class="w-full h-[172px] grid gap-18px">
+          <a href="" class="w-full h-[20px] styletext text-left">Getting started</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Help center</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Server status</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Report a bug</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Chat support</a>
+        </div>
+      </div>
+
+      <div class="grid gap-[40px]">
+        <div class="w-[78px] h-[22px] textstyletitr">Downloads</div>
+        <div class="w-full h-[172px] grid gap-18px">
+          <a href="" class="w-full h-[20px] styletext text-left">iOS</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Android</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Mac</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Windows</a>
+          <a href="" class="w-full h-[20px] styletext text-left">Chrome</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="w-full h-[70px] mt-[100px] flex max-sm:w-full max-sm:h-[70px] max-sm:hidden">
       <div class="w-[452px] h-[20px] mt-auto mb-auto ml-[135px] styletextftr">Copyright © 2022 BRIX Templates | All Rights Reserved </div>
       <div class="w-[103px] h-[19px] gap-[22px] flex mt-auto mb-auto ml-[601px]">
         <a href="" class="w-[19px] h-[19px]"><img src="img/Instagram.png" alt=""></a>
@@ -685,6 +759,9 @@
     </div>
   </div>
   <!--End footer-->
+
+
+  
 </body>
 </html>
  

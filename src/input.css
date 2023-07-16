@@ -184,3 +184,51 @@ background-image: url("../img/hassanzad.png");
 .bgss{
     background: url(../img/Group\ 93.png);
 }
+
+
+/*start navbar section style*/
+.nav{
+    width: 75%;
+    height: auto
+    text-align: right;
+    overflow: hidden;
+}
+.nav a{
+    float: right;
+    text-align: center;
+    padding: 0px 16px;
+}
+.nav a:hover:not(:last-child){
+    border-bottom: 1px solid #ba1919;
+}
+.icon{
+    display: none;
+}
+
+@media not all and (min-width: 640px) {
+    .nav a{
+        display: none;
+    }
+    .nav a.icon{
+        display: block;
+    }
+    .responsive{
+        position: relative;
+    }
+    .nav.responsive a.icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .nav.responsive a{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+
+.icon i{
+    font-size: 30px;
+}
+/*End navbar section style*/
