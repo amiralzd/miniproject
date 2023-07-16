@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="src/input.css">
-    <title>Document</title>
+    <title>eskanogroup</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -60,11 +60,11 @@
   <!--End nav-->
 
   <!--start nav responsive-->
-  <div class="max-sm:w-full max-sm:h-auto max-sm:flex sm:hidden max-sm:relative">
+  <div class="max-sm:w-full max-sm:h-auto max-sm:flex sm:hidden max-sm:sticky max-sm:top-0 max-sm:bg-[#efefef] max-sm:opacity-[90%]">
     <div class="w-1/4 h-[63.49px] flex">
       <div class="w-[44px] h-[25px] font-bold mt-auto mb-auto ml-[20px]">LOGO</div>
     </div>
-    <div onclick="navbar()" class="nav" id="mynav">
+    <div class="nav" id="mynav">
       <a href="">صفحه اصلی</a>
       <a href="">فروشگاه</a>
       <a href="">آزمون ها</a>
@@ -72,7 +72,7 @@
       <a href="">درباره من</a>
       <a href="">بلاگ</a>
       <a href="">ورود</a>
-      <a href="javascript:void(0)" class="icon"><i class="fa-solid fa-bars"></i></a>
+      <a onclick="navbar()" href="javascript:void(0)" class="icon"><i class="fa-solid fa-bars"></i></a>
     </div>
   </div>
   <!--End nav responsive-->
@@ -80,15 +80,21 @@
   <!--start main-->
 
   <!--start container 1-->
-  <div class="w-full h-[845px] top-[5px] bg-sky-400 flex max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
-    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[350px] max-sm:block bg-orange-600">
-      <div class="w-[684.28px] h-[326px] mt-[200px] ml-[37px] p-[10px] flex justify-center items-center gap-[10px] bg-lime-600 max-sm:w-full max-sm:m-auto">
+  <div class="w-full h-[845px] top-[5px] bg-sky-400 flex max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px] max-sm:block shadow-custom">
+    <div class="max-sm:w-full max-sm:h-auto">
+      <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[324px] sm:hidden">
+        <img class="m-auto" src="img/Frame 150.png" class="img1" alt="">
+      </div>
+    </div>
+    
+    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[350px] max-sm:block max-sm:flex-col-reverse max-sm:mt-[150px]">
+      <div class="w-[684.28px] h-[326px] mt-[200px] ml-[37px] p-[10px] flex justify-center items-center gap-[10px] max-sm:w-full max-sm:m-auto max-sm:mt-0">
 
         <div class="w-[664.28px] h-[306px] gap-[10px]  max-sm:w-full max-sm:h-[324px] max-sm:gap-0">
           
-          <div class="w-[664.28] h-[px] gap-[25px] max-sm:gap-0"><h1 class="max-sm:text-[20px] text-[45px] text-[#fff] text-right">مهارت های خود را با دوره های انلاین رشد دهید</h1></div>
+          <div class="w-[664.28] h-[200px] gap-[25px] max-sm:gap-0 max-sm:h-[88px]"><h1 class="max-sm:text-center max-sm:text-[20px] text-[45px] text-[#fff] text-right">مهارت های خود را با دوره های انلاین رشد دهید</h1></div>
   
-          <div class="w-[586.93px] h-[88px] text-[#fff] ml-auto">eduvi is global training provider based across the uk that specialises in accredited and bespoke training courses. we crush the barriers togetting a degree.</div>
+          <div class="w-[586.93px] h-[88px] text-[#fff] ml-auto max-sm:w-full max-sm:h-auto max-sm:text-center">eduvi is global training provider based across the uk that specialises in accredited and bespoke training courses. we crush the barriers togetting a degree.</div>
         </div>
   
       </div>
@@ -118,7 +124,7 @@
         </div>
         </div>
     </div>
-    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[324px]">
+    <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[324px] max-sm:hidden">
       <img class="mt-[-25px]" src="img/Frame 129.png" class="img1" alt="">
     </div>
 
@@ -176,7 +182,7 @@
 
 <!--start container 3-->
 
-  <div class="w-full h-[628px] images mb-[50px] max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
+  <div class="w-full h-[715px] images mb-[50px] max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
     <div class="w-2/4 h-[628px] flex justify-end items-center max-sm:w-full max-sm:h-[350px] max-sm:block">
       <div class="w-[595px] h-[350px] p-[25px] max-sm:w-full max-sm:h-[350px]">
         <div class="w-[247px] h-[54px] ml-auto text-right mr-[20px] max-sm:m-auto"><h1 class="text-[33px] text-[#2F327D] max-sm:text-center">ریاضیات حسن زاد</h1></div>
@@ -193,9 +199,9 @@
     <div class="w-[90%] h-[704px] m-auto max-sm:w-[90%] max-sm:h-[700] max-sm:m-auto">
       <div class="w-[1315px] h-[89px] m-auto flex max-sm:w-full">
         <div class="w-2/4 h-[89px] flex">
-          <div class="w-[165px] h-[63px] bg-[#fff] bc rounded-[14.9px] mt-auto mb-auto ml-[24px] flex max-sm:w-[150px] max-sm:h-[53px] max-sm:ml-0">
+          <a href="" class="w-[165px] h-[63px] bc rounded-[14.9px] mt-auto mb-auto ml-[24px] flex max-sm:w-[150px] max-sm:h-[53px] max-sm:ml-0">
             <div class="w-[115px] h-[35px] m-auto flex"><h6 class="m-auto text-[#4FB5FF] text-[22px] max-sm:text-[18px]">تمام دوره ها</h6></div>
-          </div>
+          </a>
         </div>
         <div class="w-2/4 h-[89px] flex">
           <div class="w-[350px] h-[70px] bg-[#fff] mt-auto mb-auto ml-auto flex"> <h1 class="text-[25px] mt-auto mb-auto ml-auto text-[#4FB5FF] font-bold max-sm:text-[20px]">پرفروش ترین دوره ها</h1></div>
@@ -304,7 +310,7 @@
   <!--End container 4-->
 
  <!--start container 5-->
-  <div class="w-full h-[1000px] imgct5 max-sm:bg-none max-sm:w-full max-sm:h-[750px]">
+  <div class="w-full h-[1100px] imgct5 max-sm:bg-none max-sm:w-full max-sm:h-[750px]">
     <div class="w-full h-[450px] flex max-sm:hidden">
       <div class="w-1/2 h-[450px]"></div>
       <div class="w-1/2 h-[450px] max-sm:hidden">
