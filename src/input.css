@@ -13,6 +13,10 @@ background-image: url("../img/hassanzad.png");
 
 }
 
+body{
+    font-family: Yekan Bakh FaNum;
+}
+
 .images{
     background-image: url(../img/img.png);
 }
@@ -232,3 +236,130 @@ background-image: url("../img/hassanzad.png");
     font-size: 30px;
 }
 /*End navbar section style*/
+
+
+.trs{
+    transition: all 1s ease;
+}
+
+.hvtrs:hover{
+    background: #4FB5FF;
+    color: #fff;
+}
+
+.navbar{
+    /* width: 100%;
+    height: 300px;
+    background: red;
+    opacity: 98%;
+    margin-top: 50px;
+    position: absolute; */
+    display: block!important;
+}
+
+.nav-custom{
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    opacity: 98%;
+    top: 50px;
+    display: none;
+    position: sticky;
+    padding-top: 20px;
+    background: rgba(15, 15, 15, 0.63);
+    backdrop-filter: blur(15px);
+}
+
+
+.mysearchstyle{
+    display: block!important;
+}
+
+.custom-search{
+    width: 100%;
+    height: 100px;
+    background: rgba(15, 15, 15, 0.63);
+    backdrop-filter: blur(15px);
+    position: sticky;
+    top: 50px;
+    opacity: 98%;
+    display: none;
+}
+
+
+
+.stylenav{
+    border-radius: 16px;
+    border: 1px solid var(--neutral-colors-color-600, #D4D2E3);
+    background: var(--neutral-colors-white, #FFF);
+}
+
+.styletag{
+    width: 374.239px;
+    height: 506.214px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid var(--neutral-colors-color-600, #D4D2E3);
+    background: var(--neutral-colors-white, #FFF);
+}
+
+.stylefonttag1{
+    color: #42304A;
+    text-align: center;
+    font-family: Yekan Bakh;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+}
+.stylefonttag2{
+    color: #42304A;
+    text-align: center;
+    font-family: Yekan Bakh;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+}
+
+.stylelasttag{
+    display: flex;
+    width: 306.984px;
+    height: 54px;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--blue-button, #4FB5FF);
+}
+.fontstylelasttag{
+    color: var(--neutral-colors-white, #FFF);
+    text-align: center;
+    font-family: Kalameh;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 100% */
+}
+
+.imggg{
+    background-image: url('../img/Component.png');
+    background-repeat: no-repeat;
+}
+
+
+.brd{
+    border: 1px solid #D4D2E3;
+}
+
+.fontstylee{
+    color: #8D8BA7;
+    text-align: center;
+    font-family: Yekan Bakh FaNum;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px; /* 112.5% */
+}

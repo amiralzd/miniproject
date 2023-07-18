@@ -60,27 +60,46 @@
   <!--End nav-->
 
   <!--start nav responsive-->
-  <div class="max-sm:w-full max-sm:h-auto max-sm:flex sm:hidden max-sm:sticky max-sm:top-0 max-sm:bg-[#efefef] max-sm:opacity-[90%]">
-    <div class="w-1/4 h-[63.49px] flex">
+  <div class="max-sm:w-full max-sm:h-[50px] max-sm:flex sm:hidden max-sm:sticky max-sm:top-0 max-sm:bg-[#efefef] max-sm:opacity-[98%] max-sm:items-center">
       <div class="w-[44px] h-[25px] font-bold mt-auto mb-auto ml-[20px]">LOGO</div>
-    </div>
-    <div class="nav" id="mynav">
-      <a href="">صفحه اصلی</a>
-      <a href="">فروشگاه</a>
-      <a href="">آزمون ها</a>
-      <a href="">نمونه سوالات</a>
-      <a href="">درباره من</a>
-      <a href="">بلاگ</a>
-      <a href="">ورود</a>
-      <a onclick="navbar()" href="javascript:void(0)" class="icon"><i class="fa-solid fa-bars"></i></a>
-    </div>
+      <button onclick="mysearch()" class="w-[30px] h-[30px] ml-auto mr-[15px] rounded-[50%] brd"><i class="fa-solid fa-magnifying-glass m-auto"></i></button>
+      <button onclick="mynav()" class="text-[30px] ml- mr-[20px]"><i class="fa-solid fa-bars"></i></button>
   </div>
   <!--End nav responsive-->
 
+  <div id="searchh" class="custom-search pt-[23px] pl-[22px] pr-[25px] pb-[28px]">
+    <div class="w-full h-[54px] bg-[#fff] rounded-[16px] flex">
+      <div class="w-[243px] h-[24.6px] m-auto flex gap-[12px]">
+        <div class="w-[206px] h-[18px] mt-[3.3px] fontstylee">دوره مورد نظر خود را پیدا کنید</div>
+        <div class="w-[24.59px] h-[24.59px] flex"><i class="fa-solid fa-magnifying-glass m-auto"></i></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="dropdown" class="nav-custom">
+    <div class="styletag m-auto">
+      <button class="w-[85.9px] h-[18px] mt-[24.21px] mr-[144.17px] ml-[144.17px] mb-[28px] stylefonttag1">صفحه اصلی</button>
+      <div class="w-full bg-[#D4D2E3] h-[1px]"></div>
+      <button class="w-[88.72px] h-[18px] mt-[24px] mr-[144.17px] ml-[144.17px] mb-[28px] stylefonttag2">فروشگاه</button>
+      <div class="w-full bg-[#D4D2E3] h-[1px]"></div>
+      <button class="w-[60.55px] h-[18px] mt-[24px] mr-[156.84px] ml-[156.85px] mb-[28px] stylefonttag2">آزمون‌ها</button>
+      <div class="w-full bg-[#D4D2E3] h-[1px]"></div>
+      <button class="w-[145.04px] h-[18px] mt-[24px] mr-[114.6px] ml-[114.6px] mb-[28px] stylefonttag2">نمونه سوالات</button>
+      <div class="w-full bg-[#D4D2E3] h-[1px]"></div>
+      <button class="w-[97.16px] h-[18px] mt-[24px] mr-[138.54px] ml-[138.54px] mb-[28px] stylefonttag2">درباره من</button>
+      <div class="w-full bg-[#D4D2E3] h-[1px]"></div>
+      <button class="w-[116.88px] h-[18px] mt-[24px] mr-[128.68px] ml-[128.68px] mb-[36px] stylefonttag2">بلاگ</button>
+      <button class="w-[306.98px] h-[54px] stylelasttag ml-[33.46px] mr-[33.8px]">
+        <div class="w-[33px] h-[18px] fontstylelasttag">ورود</div>
+      </button>
+    </div>
+  </div>
   <!--start main-->
 
   <!--start container 1-->
-  <div class="w-full h-[845px] top-[5px] bg-sky-400 flex max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px] max-sm:block shadow-custom">
+  <div class="w-full h-[845px] top-[5px] imggg flex max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px] max-sm:block shadow-custom">
     <div class="max-sm:w-full max-sm:h-auto">
       <div class="w-2/4 h-[845px] max-sm:w-full max-sm:h-[324px] sm:hidden">
         <img class="m-auto" src="img/Frame 150.png" class="img1" alt="">
@@ -136,12 +155,12 @@
 
 <div class="w-[1342px] h-[507px] m-auto mt-[100px] max-sm:w-full max-sm:h-[560px]">
   <div class="w-[1025px] h-[175px] ml-auto mr-auto max-sm:w-full max-sm:h-[560px]">
-    <div class="w-[616px] h-[59px] ml-auto mr-auto text-[#2F327D] text-[25px] text-center max-sm:w-[80%]"><span class="text-[#FF3FA6]">قوی ترین</span> دوره های آموزشی را با ما تجربه کنبد</div>
-    <div class="w-full h-[82px] mt-[35px] text-center max-sm:w-[80%] max-sm:m-auto max-sm:mt-[20px]">در این سایت تجربه ی همه کلاس های همایشی و حضوری بنده با کیفیتی دو چندان به صورت اختصاصی به شما ارائه می شود و با بهره گیری از امکاناتی چون ویدیو ها، جزوه ها، آزمون ها و رفع اشکال در هر لحظه در تمام مراحل در کنار شما باشم.</div>
+    <div class="w-[616px] h-[59px] ml-auto mr-auto text-[#2F327D] text-center max-sm:w-[80%] text-[30px] font-extrabold leading-[180%]"><span class="text-[#FF3FA6]">قوی ترین</span> دوره های آموزشی را با ما تجربه کنبد</div>
+    <div class="w-full h-[82px] mt-[35px] text-center max-sm:w-[80%] max-sm:m-auto max-sm:mt-[100px] text-[23px] font-medium leading-[180%]">در این سایت تجربه ی همه کلاس های همایشی و حضوری بنده با کیفیتی دو چندان به صورت اختصاصی به شما ارائه می شود و با بهره گیری از امکاناتی چون ویدیو ها، جزوه ها، آزمون ها و رفع اشکال در هر لحظه در تمام مراحل در کنار شما باشم.</div>
 
-    <div class="w-full h-[300px] mt-[30px] grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-sm:mt-[90px] max-sm:w-[70%] max-sm:m-auto">
+    <div class="w-full h-[300px] mt-[57.14px] grid grid-cols-3 gap-5 max-sm:grid-cols-1 max-sm:mt-[90px] max-sm:w-[70%] max-sm:m-auto">
 
-      <div class="bg-[#fff] rounded-[28px] shadow-custom">
+      <div class="bg-[#fff] rounded-[28px] shadow-custom max-sm:mt-[150px]">
         <div class="w-[388px] h-[50px] ml-[-25px] mt-[125px] absolute flex sm:hidden">
           <div class="w-1/2 h-[50px]">
             <div class="w-[50px] h-[50px] bgctn1 rounded-[10px] flex customsh"><img class="m-auto" src="img/Arrow_Left_MD.png" alt=""></div>
@@ -182,11 +201,11 @@
 
 <!--start container 3-->
 
-  <div class="w-full h-[715px] images mb-[50px] max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px]">
+  <div class="w-full h-[715px] images mb-[50px] max-sm:bg-none max-sm:w-full max-sm:h[700px] max-sm:mb-[150px] max-sm:mt-[250px]">
     <div class="w-2/4 h-[628px] flex justify-end items-center max-sm:w-full max-sm:h-[350px] max-sm:block">
       <div class="w-[595px] h-[350px] p-[25px] max-sm:w-full max-sm:h-[350px]">
-        <div class="w-[247px] h-[54px] ml-auto text-right mr-[20px] max-sm:m-auto"><h1 class="text-[33px] text-[#2F327D] max-sm:text-center">ریاضیات حسن زاد</h1></div>
-        <div class="w-full text-right tracking-[0.0.32px] leading-[180%] pr-[20px] max-sm:leading-[160%] max-sm:text-center">من حسین حسن زاد با بیش از ده سال سابقه تدریس در آموزشگاه ها و مدارس شهر های مختلف ایران در نظر دارم مجموعه خدمات آموزشی خود را درس ریاضیات در بستر این سایت در اختیار شما عزیزان قرار بدم تا با روش های اولا مفهومی سپس تکنیکی و حرفه ای در هر مقطعی ریاضیات رو به شیرین ترین درس شما تبدیل کنم..
+        <div class="w-[247px] h-[54px] ml-auto text-right mr-[20px] max-sm:m-auto"><h1 class="text-[33.961px] font-bold leading-[160%] text-[#2F327D] max-sm:text-center">ریاضیات حسن زاد</h1></div>
+        <div class="w-full text-right font-semibold text-[16px] leading-[180%] pr-[20px] max-sm:leading-[160%] max-sm:text-center">من حسین حسن زاد با بیش از ده سال سابقه تدریس در آموزشگاه ها و مدارس شهر های مختلف ایران در نظر دارم مجموعه خدمات آموزشی خود را درس ریاضیات در بستر این سایت در اختیار شما عزیزان قرار بدم تا با روش های اولا مفهومی سپس تکنیکی و حرفه ای در هر مقطعی ریاضیات رو به شیرین ترین درس شما تبدیل کنم..
           در این سایت تجربه ی همه کلاس های همایشی و حضوری بنده با کیفیتی دو چندان به صورت اختصاصی به شما ارائه می شود و با بهره گیری از امکاناتی چون ویدیو ها، جزوه ها، آزمون ها و رفع اشکال در هر لحظه در تمام مراحل در کنار شما باشم</div>
       </div>
       <div class="w-full h-[350px] max-sm:w-full max-sm:h-[315px] sm:hidden"><img class="max-sm:w-full" src="img/Frame 142.png" alt=""></div>
@@ -199,8 +218,8 @@
     <div class="w-[90%] h-[704px] m-auto max-sm:w-[90%] max-sm:h-[700] max-sm:m-auto">
       <div class="w-[1315px] h-[89px] m-auto flex max-sm:w-full">
         <div class="w-2/4 h-[89px] flex">
-          <a href="" class="w-[165px] h-[63px] bc rounded-[14.9px] mt-auto mb-auto ml-[24px] flex max-sm:w-[150px] max-sm:h-[53px] max-sm:ml-0">
-            <div class="w-[115px] h-[35px] m-auto flex"><h6 class="m-auto text-[#4FB5FF] text-[22px] max-sm:text-[18px]">تمام دوره ها</h6></div>
+          <a href="" class="w-[165px] h-[63px] bc rounded-[14.9px] mt-auto mb-auto ml-[24px] flex max-sm:w-[150px] max-sm:h-[53px] max-sm:ml-0 hvtrs  text-[#4FB5FF] trs fm">
+            <div class="w-[115px] h-[35px] m-auto flex"><h6 class="m-auto text-[22px] max-sm:text-[18px]">تمام دوره ها</h6></div>
           </a>
         </div>
         <div class="w-2/4 h-[89px] flex">
@@ -364,7 +383,7 @@
         <div class="w-3/4 h-[110px] ml-auto mt-[120px] text-right max-sm:w-full max-sm:h-[80px]"><h1 class="text-[#2F327D] text-[37px] max-sm:text-[20px] max-sm:text-center"><span class="text-[#4FB5FF]">پکیج طلایی</span> کنکور بهترین آموزش سال لقب گرفت</h1></div>
         <div class="w-[90%] h-[100px] ml-auto text-right text-[20px] text-[#696984] max-sm:m-auto max-sm:text-center max-sm:h-auto">خب دوستان، و اما پکیج طلایی ریاضیات کنکور اولا که میخوام بهتون بگم خیلی خوشحالم که تونستم یک دوره کامل مطابق با همه ی اون استاندارد های ذهنی خودم در بهترین حالت براتون بوجود بیارم. تو این دوره</div>
 
-        <a href="" class="max-sm:w-[98.66px] max-sm:h-[27.85px] text-white bg-cyan-600 max-sm:rounded-[10px] max-sm:m-auto max-sm:mt-[30px] max-sm:flex max-sm:justify-center sm:hidden">نمایش دوره</a>
+        <a href="" class="max-sm:w-[98.66px] max-sm:h-[27.85px] text-white bg-cyan-600 max-sm:rounded-[10px] max-sm:m-auto max-sm:mt-[30px] max-sm:flex max-sm:justify-center sm:hidden hover:bg-green-500 trs">نمایش دوره</a>
         <div class="max-sm:w-full max-sm:h-[300px] max-sm:mt-[40px] sm:hidden"><img class="w-[90%] m-auto" src="img/Frame 139.png" alt=""></div>
       </div>
     </div>
@@ -522,8 +541,8 @@
   <div class="w-[1333px] h-[570px] mt-[50px] m-auto max-sm:w-full max-sm:h-[570px]">
     <div class="w-[1263px] h-[89px] m-auto flex mb-[27px] max-sm:w-full max-sm:h-[89px]">
       <div class="w-1/2 h-[89px]">
-        <a href="" class="flex w-[156px] h-[63px] ml-[15px] mt-[13px] rounded-[14.941px] pt-[14px] pb-[14px] pl-[25px] pr-[25px] brc7 max-sm:w-[130px] max-sm:h-[53px] max-sm:p-0">
-          <div class="w-[106px] h-[35px] text-[20px] text-center text-[#4FB5FF] max-sm:m-auto">تمام جزوات</div>
+        <a href="" class="flex w-[156px] h-[63px] ml-[15px] mt-[13px] rounded-[14.941px] pt-[14px] pb-[14px] pl-[25px] pr-[25px] brc7 max-sm:w-[130px] max-sm:h-[53px] max-sm:p-0 text-[#4FB5FF] hover:bg-[#4FB5FF] trs hover:text-[#fff]">
+          <div class="w-[106px] h-[35px] text-[20px] text-center max-sm:m-auto">تمام جزوات</div>
         </a>
       </div>
       <div class="w-1/2 h-[89px] flex">
@@ -587,8 +606,8 @@
   <div class="w-full h-[656px] max-sm:w-full max-sm:h-[500px]">
     <div class="w-[1337px] h-[89px] rounded-[15px] pr-[19px] pl-[24px] m-auto flex max-sm:w-full">
       <div class="w-1/2 h-[89px] flex">
-        <a class="w-[165px] h-[63px] mt-auto mb-auto rounded-[14.9px] pt-[19px] pb-[14px] pr-[25px] pl-[25px] brdctn9 max-sm:w-[140px] max-sm:h-[53px] max-sm:p-0 max-sm:flex" href="">
-          <div class="w-[115px] h-[35px] flex text-[19px] text-[#4FB5FF] max-sm:m-auto max-sm:mt-[13px]"><h1 class="m-auto mt-[-5px]">تمام دوره ها</h1></div>
+        <a class="w-[165px] h-[63px] mt-auto mb-auto rounded-[14.9px] pt-[19px] pb-[14px] pr-[25px] pl-[25px] brdctn9 max-sm:w-[140px] max-sm:h-[53px] max-sm:p-0 max-sm:flex text-[#4FB5FF] hover:bg-[#4FB5FF] hover:text-[#fff] trs" href="">
+          <div class="w-[115px] h-[35px] flex text-[19px] max-sm:m-auto max-sm:mt-[13px]"><h1 class="m-auto mt-[-5px]">تمام دوره ها</h1></div>
         </a>
       </div>
       <div class="w-1/2 h-[89px] flex">
@@ -602,9 +621,9 @@
       <div class="bg-[#0057FF] rounded-[26.051px] bxshctn9 max-sm:h-[300px]">
         <div class="w-[328px] h-[304px] mt-[7px] mr-[6.5px] ml-[8.5px] max-sm:h-[140px]"><img class="max-sm:h-[253px]" src="img/Rectangle1.png" alt=""></div>
         <div class="w-[202px] h-[30px] mt-[29px] m-auto textstylectn9 max-sm:mt-[40px]">آزمون توابع پایه دوازدهم</div>
-        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF]" href="">
+        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF] text-[#31003d] hover:text-[#fff] text-[20px] font-light leading-[150%] text-center trs" href="">
           <div class="w-[174px] h-[30px] m-auto flex">
-            <div class="w-[130px] h-[30px] m-auto styletextctn9">شرکت در آزمون</div>
+            <div class="w-[130px] h-[30px] m-auto">شرکت در آزمون</div>
           </div>
         </a>
       </div>
@@ -612,9 +631,9 @@
       <div class="bg-[#0057FF] rounded-[26.051px] bxshctn9 max-sm:h-[300px]">
         <div class="w-[328px] h-[304px] mt-[7px] mr-[6.5px] ml-[8.5px] max-sm:h-[140px]"><img class="max-sm:h-[253px]" src="img/Rectangle1.png" alt=""></div>
         <div class="w-[202px] h-[30px] mt-[29px] m-auto textstylectn9 max-sm:mt-[40px]">آزمون توابع پایه دوازدهم</div>
-        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF]" href="">
+        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF] text-[#31003d] hover:text-[#fff] text-[20px] font-light leading-[150%] text-center trs" href="">
           <div class="w-[174px] h-[30px] m-auto flex">
-            <div class="w-[130px] h-[30px] m-auto styletextctn9">شرکت در آزمون</div>
+            <div class="w-[130px] h-[30px] m-auto">شرکت در آزمون</div>
           </div>
         </a>
       </div>
@@ -622,9 +641,9 @@
       <div class="bg-[#0057FF] rounded-[26.051px] bxshctn9 max-sm:hidden">
         <div class="w-[328px] h-[304px] mt-[7px] mr-[6.5px] ml-[8.5px]"><img src="img/Rectangle1.png" alt=""></div>
         <div class="w-[202px] h-[30px] mt-[29px] m-auto textstylectn9">آزمون توابع پایه دوازدهم</div>
-        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF]" href="">
+        <a class="w-full h-[62px] bg-white mt-[40px] rounded-br-[26.051px] rounded-bl-[26.051px] flex hover:bg-[#4791FF] text-[#31003d] hover:text-[#fff] text-[20px] font-light leading-[150%] text-center trs" href="">
           <div class="w-[174px] h-[30px] m-auto flex">
-            <div class="w-[130px] h-[30px] m-auto styletextctn9">شرکت در آزمون</div>
+            <div class="w-[130px] h-[30px] m-auto">شرکت در آزمون</div>
           </div>
         </a>
       </div>
@@ -638,6 +657,8 @@
     </div>
   </div>
   <!--End container 9-->
+
+  <!--End main-->
 
   <!--start footer-->
   <div class="w-full h-[760px] mt-[138px] max-sm:w-full max-sm:h-[870px] max-sm:mt-[50px]">
